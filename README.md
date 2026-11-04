@@ -17,7 +17,7 @@ Authorization: OAuth in your browser
 
 1. Add the endpoint through your client's normal MCP connection interface.
 2. Sign in to ToolsPad and select the workspace you intend to use.
-3. Choose **read-only** for the first three recipes. The current connection flow defaults to read and write, so check the access mode before approving.
+3. Choose **read-only** for the first two recipes. The current connection flow defaults to read and write, so check the access mode before approving.
 4. Ask the client to discover the available tools. Do not assume that an example's fields or operations exist in every connected workspace.
 
 Review or revoke a connection in **Settings → AI connections**. Do not paste access tokens, passwords or a private workspace export into an issue on this repository.
