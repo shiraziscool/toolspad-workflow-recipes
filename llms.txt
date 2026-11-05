@@ -1,0 +1,16 @@
+# ToolsPad workspace workflow documentation
+
+> Public ToolsPad-maintained instructions for reviewing business tasks, preparing client handovers and previewing a follow-up task through an authorised workspace MCP connection. This repository contains documentation, not a server implementation or public credentials.
+
+## Documentation
+
+- [Workflow recipes](https://github.com/shiraziscool/toolspad-workflow-recipes/blob/main/README.md): Three practical workflows and their verification boundaries.
+- [Workflow skill](https://github.com/shiraziscool/toolspad-workflow-recipes/blob/main/skills/toolspad-workspace-workflows/SKILL.md): Task scope, required inputs, permissions and constraints for compatible clients.
+- [Authentication guide](https://github.com/shiraziscool/toolspad-workflow-recipes/blob/main/AUTH.md): Browser OAuth, one selected workspace, access modes and revocation.
+- [Official ToolsPad MCP guide](https://toolspad.com/mcp?utm_source=github&utm_medium=referral&utm_campaign=aidm&utm_id=aidm_organic_v1&utm_content=github_workflow_index_001): Current product setup and connection instructions.
+
+## Connection boundary
+
+The hosted endpoint is https://app.toolspad.com/mcp using Streamable HTTP. Initial OAuth authorisation requires the real workspace user in a browser. Read-only is available; the documented connection defaults to read and write, so check before approval. Workspace membership, permissions and app entitlements determine available tools. Discover actual tool schemas instead of assuming names or fields.
+
+No private-workspace or client-specific runtime test is claimed. No plan, ranking, traffic or conversion guarantee is implied. Never submit credentials or business records to this repository.
