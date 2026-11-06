@@ -14,6 +14,19 @@ Use this worksheet to find where new client inquiries wait for a useful reply. I
 
 The filled rows are synthetic. Use a consistent time zone and record the actual times. A useful reply answers a question, asks for a missing detail, or offers a concrete next step. Keep automatic acknowledgements in their own column. For unanswered inquiries, leave the first-reply time blank and note how long each inquiry has been waiting.
 
+## Copy a blank template
+
+Use the copy button on the block below and paste into cell A1 of a blank spreadsheet. The header uses tabs to separate the columns. Enter full dates and times in the same time zone, and use an inquiry ID in place of the client’s name.
+
+```text
+Inquiry ID	Received	Automatic acknowledgement	First useful reply	Owner at receipt	Reason for delay	Next action and due date
+A-01
+A-02
+A-03
+A-04
+A-05
+```
+
 ## Review the five rows
 
 1. **Compare like with like.** Record the elapsed time and whether the inquiry arrived during the hours you promise to cover. Keep weekend and after-hours cases visible.
