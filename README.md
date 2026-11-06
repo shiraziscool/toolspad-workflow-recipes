@@ -4,6 +4,10 @@ Practical MCP prompt templates for small service businesses, agencies and consul
 
 This documentation project is maintained for ToolsPad. It contains reusable prompts, not an MCP server implementation or a promise of results. The examples use no customer data. Tool availability depends on the connected workspace, permissions and application entitlements.
 
+## Start with an agency inquiry audit
+
+Use the [first-response worksheet](AGENCY-FIRST-RESPONSE-AUDIT.md) to review five recent inquiries, spot where replies stall, and assign backup coverage. You can use the worksheet with a spreadsheet or shared inbox.
+
 ## Connect one workspace
 
 Use a client that supports remote MCP with Streamable HTTP and browser-based OAuth:
