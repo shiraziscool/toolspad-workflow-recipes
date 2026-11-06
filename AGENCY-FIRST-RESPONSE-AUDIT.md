@@ -27,6 +27,21 @@ A-04
 A-05
 ```
 
+## Measure elapsed time in the spreadsheet
+
+Add **Elapsed minutes to useful reply** in column H. If you pasted the blank template into cell A1 and entered the received and reply timestamps as real spreadsheet dates and times, paste this into H2 and fill down to H6:
+
+```text
+=IF(AND(ISNUMBER(B2),ISNUMBER(D2),D2>=B2),ROUND((D2-B2)*1440,0),"")
+```
+
+Use these two measures when you review the five inquiries:
+
+- **Median elapsed minutes for answered inquiries** `=IF(COUNT(H2:H6)=0,"",MEDIAN(H2:H6))`
+- **Inquiries still awaiting a useful reply** `=COUNTIFS(B2:B6,">0",D2:D6,"")`
+
+Leave D blank when there is no useful reply. A blank H cell alongside a filled D cell is a cue to check that both timestamps are valid and in order. The formula measures clock time, including nights and weekends. Flag those arrivals separately before comparing weeks.
+
 ## Review the five rows
 
 1. **Compare like with like.** Record the elapsed time and whether the inquiry arrived during the hours you promise to cover. Keep weekend and after-hours cases visible.
